@@ -6,6 +6,12 @@ description: "Physics student at Tribhuvan University with expertise in Data Sci
 baseurl: "" # Leave this empty for GitHub Pages
 url: "https://manojaryalgit.github.io" # Your repository's URL
 
+# Theme - Automatic GitHub Pages theme
+remote_theme: "pages-themes/cayman@v0.2.0" # You can change this to any GitHub-supported theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
 # SEO & Social Media
 social_links:
   linkedin: "https://linkedin.com/in/manoj-aryal-999835178"
@@ -14,15 +20,6 @@ social_links:
 
 google_analytics: "UA-XXXXXX-X" # Replace with your Google Analytics tracking ID
 twitter_username: "manojaryalgit" # Add your Twitter username if you have one
-
-# Theme & Plugins
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap # Optional, for sitemap generation
-  - jekyll-paginate # Optional, for paginated posts
-  - jemoji # Optional, for adding emoji support
 
 # Navigation Bar
 navbar:
@@ -38,6 +35,8 @@ navbar:
     link: "/blog"
   - name: "Contact"
     link: "/contact"
+  - name: "README"
+    link: "/README"
 
 # Author Information
 author:
@@ -69,7 +68,7 @@ achievements:
     description: "Participated in the CanSat-based Capacity Building Workshop organized by ORION Space Pvt. Ltd. on March 4-15, 2023."
   - title: "Journal Submission"
     description: "Submitted a research paper titled 'Prediction of Earthquakes in Nepal and Adjoining Regions Using LSTM Machine Learning Approach' for review in a Q1-ranked journal."
-  
+
 # Projects Section
 projects:
   - name: "Earthquake Prediction using LSTM"
