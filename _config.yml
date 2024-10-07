@@ -4,7 +4,7 @@ email: "manoj.765401@bimc.tu.edu.np"
 description: "Physics student at Tribhuvan University with expertise in Data Science, Machine Learning, and Natural Sciences research. Specializing in earthquake prediction using LSTM models and Bayesian Inference."
 
 baseurl: "" # Leave this empty for GitHub Pages
-url: "https://manojaryalgit.github.io" # Your repository's URL
+url: "https://manojaryal.me" # Your repository's URL
 
 # Theme - Automatic GitHub Pages theme
 remote_theme: "pages-themes/cayman@v0.2.0" # You can change this to any GitHub-supported theme
