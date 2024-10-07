@@ -1,0 +1,103 @@
+# Site Information
+title: "Manoj Aryal"
+email: "manoj.765401@bimc.tu.edu.np"
+description: "Physics student at Tribhuvan University with expertise in Data Science, Machine Learning, and Natural Sciences research. Specializing in earthquake prediction using LSTM models and Bayesian Inference."
+
+baseurl: "" # Leave this empty for GitHub Pages
+url: "https://manojaryalgit.github.io" # Your repository's URL
+
+# SEO & Social Media
+social_links:
+  linkedin: "https://linkedin.com/in/manoj-aryal-999835178"
+  github: "https://github.com/manojaryalgit"
+  email: "manoj.765401@bimc.tu.edu.np"
+
+google_analytics: "UA-XXXXXX-X" # Replace with your Google Analytics tracking ID
+twitter_username: "manojaryalgit" # Add your Twitter username if you have one
+
+# Theme & Plugins
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap # Optional, for sitemap generation
+  - jekyll-paginate # Optional, for paginated posts
+  - jemoji # Optional, for adding emoji support
+
+# Navigation Bar
+navbar:
+  - name: "About"
+    link: "/about"
+  - name: "Projects"
+    link: "/projects"
+  - name: "Skills"
+    link: "/skills"
+  - name: "Achievements"
+    link: "/achievements"
+  - name: "Blog"
+    link: "/blog"
+  - name: "Contact"
+    link: "/contact"
+
+# Author Information
+author:
+  name: "Manoj Aryal"
+  email: "manoj.765401@bimc.tu.edu.np"
+  avatar: "https://your-avatar-link.com" # Add an image link
+  bio: "Final year Physics student at Tribhuvan University with a strong interest in earthquake prediction using LSTM models, Bayesian Inference, and Data Science for Natural Sciences."
+
+# Skills Section
+skills:
+  - Data Science
+  - Machine Learning
+  - Python Programming
+  - JupyterLab
+  - PyGMT
+  - LSTM Networks
+  - Seismic Data Analysis
+  - Bayesian Inference
+  - OBS for streaming
+  - Web Development (HTML, CSS, SVG)
+
+# Achievements Section
+achievements:
+  - title: "Research Assistant Position"
+    description: "Interviewed and offered a research assistant position with a stipend of $12,000 for 9 months and $3,000 for summer, plus tuition coverage."
+  - title: "Oral Presentation at National Science Day"
+    description: "Delivered an oral presentation on 'Earthquake Prediction in Nepal using LSTM' at a one-day seminar organized for the 12th National Science Day at NAST, Lalitpur."
+  - title: "CanSat Capacity Building Workshop"
+    description: "Participated in the CanSat-based Capacity Building Workshop organized by ORION Space Pvt. Ltd. on March 4-15, 2023."
+  - title: "Journal Submission"
+    description: "Submitted a research paper titled 'Prediction of Earthquakes in Nepal and Adjoining Regions Using LSTM Machine Learning Approach' for review in a Q1-ranked journal."
+  
+# Projects Section
+projects:
+  - name: "Earthquake Prediction using LSTM"
+    description: "Developed an LSTM model to predict earthquakes in Nepal based on seismic data. Focused on geographic coordinates, magnitude, depth, and time of events."
+    link: "https://github.com/manojaryalgit/earthquake-prediction-LSTM"
+  - name: "Hybrid LSTM + EVT Model for High-Magnitude Earthquake Prediction"
+    description: "Implemented a hybrid model combining LSTM with Extreme Value Theory (EVT) for predicting high-magnitude earthquakes."
+    link: "https://github.com/manojaryalgit/hybrid-LSTM-EVT-earthquake-prediction"
+  - name: "PyGMT Seismic Map of the Central Himalayas"
+    description: "Used PyGMT to create a seismic map for the Central Himalayan region, filtering earthquake data by magnitude and plotting elevation data."
+    link: "https://github.com/manojaryalgit/seismic-map-pygmt"
+  - name: "Cricket Score App UI Design"
+    description: "Designed and developed a cricket score app UI using HTML, CSS, and APIs for live cricket data."
+    link: "https://github.com/manojaryalgit/cricket-score-app"
+
+# Blog Post Settings
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Manoj Aryal"
+
+# Footer Content
+footer_content: "© 2024 Manoj Aryal. All rights reserved."
+
+# Additional Settings
+paginate: 5 # For paginated blog posts (optional)
+sitemap:
+  exclude: ["404.html"] # Optional, exclude certain pages from the sitemap
